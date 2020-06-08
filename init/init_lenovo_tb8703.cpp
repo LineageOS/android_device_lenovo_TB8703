@@ -70,6 +70,7 @@ static void set_fingerprint()
 //		property_override("ro.bootimage.build.fingerprint", "Lenovo/TB-8703F/TB-8703F:6.0.1/MMB29M/TB-8703F_USR_S035_180326_Q1241_ROW:user/release-keys");
 		property_override("ro.qc.sdk.audio.fluencetype", "none");
 		property_override("persist.audio.fluence.speaker", "true");
+		property_override("persist.vendor.dpm.feature", "0");
 	//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "LenovoTB-8703F_ROW");
     } else if(baseband == "msm") {
